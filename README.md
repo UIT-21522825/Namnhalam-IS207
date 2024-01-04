@@ -10,7 +10,7 @@
 4/ Huynh Minh Quan - 20520707 - [Github](https://github.com/mquan8342) <br><br>
 
 ## Supervisors
-1/ MSc. Mai Xuan Hung - Email: dongnt@uit.edu.vn <br><br>
+1/ MSc. Mai Xuan Hung <br><br>
 2/ BSc. Pham Nguyen Thanh Binh
 
 ### **Description**
