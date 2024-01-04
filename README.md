@@ -6,8 +6,8 @@
 ## Contributors
 1/ Nguyen Nhat Long Phi - 21522454 - [Github](https://github.com/nonggfiii) <br><br>
 2/ Le Thi Thanh Tam - 21522825 - [Github](https://github.com/UIT-21522825) <br><br>
-3/ Nguyen Anh Thu - 21522647 - [Github](https://github.com/anh-thhh) <br><br>
-4/ Huynh Minh Quan - 20520707 - [Github](https://github.com/mquan8342) <br><br>
+3/ Huynh Minh Quan - 20520707 - [Github](https://github.com/mquan8342) <br><br>
+4/ Nguyen Anh Thu - 21522647 - [Github](https://github.com/anh-thhh) <br><br>
 
 ## Supervisors
 1/ MSc. Mai Xuan Hung <br><br>
