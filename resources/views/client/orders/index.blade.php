@@ -24,9 +24,15 @@
                               <th>Hình thức thanh toán</th>
                       </tr>
 
+                      @php
+                        $totalItems = $orders->total(); // Tổng số sản phẩm
+                        $currentPage = $orders->currentPage(); // Số trang hiện tại
+                        $perPage = $orders->perPage(); // Số sản phẩm trên mỗi trang
+                        $count = $totalItems - ($currentPage - 1) * $perPage; // ID bắt đầu của trang hiện tại
+                    @endphp
                       @foreach ($orders as $item)
                           <tr>
-                              <td>{{ $item->id }}</td>
+                              <td>{{ $count }}</td>
 
                               <td>{{ $item->status }}</td>
                               <td>${{ $item->total }}</td>
@@ -49,6 +55,9 @@
 
                               </td>
                           </tr>
+                           @php
+                    $count--;
+                    @endphp
                       @endforeach
                   </table>
                   {{ $orders->links() }}

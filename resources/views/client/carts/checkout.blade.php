@@ -184,7 +184,7 @@
                 data: $(this).serialize(), // Serialize dữ liệu của form
                 success: function(response) {
                     // Khi thành công (sau khi đã xử lý form), chuyển hướng về trang chủ
-                    window.location.href = "{{ route('home') }}"; // Đổi 'home' thành route tương ứng của bạn
+                    window.location.href = "{{ route('client.orders.index') }}"; // Đổi 'home' thành route tương ứng của bạn
                 },
                 error: function(xhr, status, error) {
                     // Xử lý lỗi nếu có

@@ -5663,7 +5663,7 @@ fieldset:disabled .btn {
   --bs-pagination-hover-border-color: #dee2e6;
   --bs-pagination-focus-color: #75ac2b;
   --bs-pagination-focus-bg: #f0f2f5;
-  --bs-pagination-focus-box-shadow: 0 0 0 0.2rem rgba(233, 30, 99, 0.25);
+  --bs-pagination-focus-box-shadow: 0 0 0 0.2rem rgba(117, 172, 43, 0.25);
   --bs-pagination-active-color: #fff;
   --bs-pagination-active-bg: #75ac2b;
   --bs-pagination-active-border-color: #75ac2b;
@@ -25110,7 +25110,7 @@ body:not(.dark-version) .sidenav.bg-transparent .collapse .nav-item .nav-link.ac
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #7b809a;
+  color: #4d4b4b;
   padding: 0;
   margin: 0 3px;
   border-radius: 50% !important;

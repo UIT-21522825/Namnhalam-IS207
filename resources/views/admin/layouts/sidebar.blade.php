@@ -22,7 +22,7 @@
             <li class="nav-item">
                 <a class="nav-link text-white {{request()->routeIs('roles.*') ? 'active bg-gradient-primary' :''}}" href="{{route('roles.index')}}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="material-icons opacity-10">table_view</i>
+                        <i class="fas fa-users opacity-10"></i>
                     </div>
                     <span class="nav-link-text ms-1">Vai trò</span>
                 </a>
@@ -32,7 +32,7 @@
             <li class="nav-item">
                 <a class="nav-link text-white {{request()->routeIs('users.*') ? 'active bg-gradient-primary' :''}}" href="{{route('users.index')}}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="material-icons opacity-10">receipt_long</i>
+                        <i class="fas fa-user opacity-10"></i>
                     </div>
                     <span class ="nav-link-text ms-1">Người dùng</span>
                 </a>
@@ -42,7 +42,7 @@
             <li class="nav-item">
                 <a class="nav-link text-white {{request()->routeIs('categories.*') ? 'active bg-gradient-primary' :''}}" href="{{route('categories.index')}}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="material-icons opacity-10">receipt_long</i>
+                        <i class="fas fa-folder opacity-10"></i>
                     </div>
                     <span class="nav-link-text ms-1">Danh mục</span>
                 </a>
@@ -52,7 +52,7 @@
             <li class="nav-item">
                 <a class="nav-link text-white {{request()->routeIs('products.*') ? 'active bg-gradient-primary' :''}}" href="{{route('products.index')}}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="material-icons opacity-10">receipt_long</i>
+                        <i class="fas fa-cube opacity-10"></i>
                     </div>
                     <span class="nav-link-text ms-1">Sản phẩm</span>
                 </a>
@@ -62,7 +62,7 @@
                 <li class="nav-item">
                     <a class="nav-link text-white {{request()->routeIs('coupons.*') ? 'active bg-gradient-primary' :''}}" href="{{route('coupons.index')}}">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                            <i class="material-icons opacity-10">receipt_long</i>
+                            <i class="fas fa-tags opacity-10"></i>
                         </div>
                         <span class="nav-link-text ms-1">Mã khuyến mãi</span>
                     </a>
@@ -73,7 +73,7 @@
             <li class="nav-item">
                 <a class="nav-link text-white {{request()->routeIs('admin.orders.*') ? 'active bg-gradient-primary' :''}}" href="{{route('admin.orders.index')}}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="material-icons opacity-10">receipt_long</i>
+                        <i class="fas fa-shopping-cart opacity-10"></i>
                     </div>
                     <span class="nav-link-text ms-1">Đơn hàng</span>
                 </a>

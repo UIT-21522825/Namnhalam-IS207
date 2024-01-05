@@ -1,3 +1,11 @@
+@php
+    // Lấy user hiện tại đã đăng nhập (đối tượng User)
+    $currentUser = Auth::user();
+
+    // Đếm số lượng đơn hàng của người dùng hiện tại
+    $countOrders = \App\Models\Order::where('user_id', $currentUser->id)->count();
+@endphp
+
 <div class="container-fluid topbar">
     <div class="row bg-secondary py-2 px-xl-5">
         <div class="col-lg-6 d-none d-lg-block">
@@ -45,11 +53,17 @@
             </form>
             <div class="position-absolute shadow-lg pt-2 z-index-3 bg-body rounded result-search" id="searchResults"></div>
         </div>
+
         <div class="col-lg-3 col-6 text-right">
+            <a href="{{ route('client.orders.index') }}" class="btn border">
+                <i class="fas fa-clipboard-list text-primary"></i>
+                <span class="badge" id="productCountCart">{{ $countOrders }}</span>
+            </a>
             <a href="{{ route('client.carts.index') }}" class="btn border">
                 <i class="fas fa-shopping-cart text-primary"></i>
                 <span class="badge" id="productCountCart">{{ $countProductInCart }}</span>
             </a>
         </div>
+
     </div>
 </div>
