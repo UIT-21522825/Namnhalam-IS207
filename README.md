@@ -17,6 +17,11 @@
 The "NamNhaLam" e-commerce website is an online platform designed for buying and selling products. It provides various features and functionalities to facilitate the shopping experience for users.
 
 ### **How to use**: <br>
+
+#### Account <br>
+Username: admin@admin.com <br>
+Password: admin123 <br><br>
+
 To use the website, users can perform the following actions:
 
 - Login: Users can enter their credentials (username and password) to access their accounts and personalized features.
