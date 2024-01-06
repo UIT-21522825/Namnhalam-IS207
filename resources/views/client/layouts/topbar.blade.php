@@ -1,9 +1,11 @@
 @php
-    // Lấy user hiện tại đã đăng nhập (đối tượng User)
     $currentUser = Auth::user();
 
-    // Đếm số lượng đơn hàng của người dùng hiện tại
-    $countOrders = \App\Models\Order::where('user_id', $currentUser->id)->count();
+    $countOrders = 0; // Giá trị mặc định nếu người dùng chưa được xác thực
+
+    if ($currentUser) {
+        $countOrders = \App\Models\Order::where('user_id', $currentUser->id)->count();
+    }
 @endphp
 
 <div class="container-fluid topbar">
